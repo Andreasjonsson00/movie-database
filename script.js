@@ -27,7 +27,7 @@ function displayMovies(movies) {
       "mb-4"
     );
     movieElement.innerHTML = `
-    <div class="mt-2 border rounded shadow h-100 d-flex flex-column"> 
+    <div class="movie-card mt-2 border rounded shadow h-100 d-flex flex-column"> 
       <a href="https://www.themoviedb.org/movie/${movie.id}" target="_blank">
         <img class="img-fluid shadow rounded" src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}">
       </a>
