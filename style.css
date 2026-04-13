@@ -1,0 +1,18 @@
+.movie-card {
+	background: #fff;
+	transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.movie-card:hover {
+	transform: translateY(-6px);
+	border-color: rgba(13, 110, 253, 0.35);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.18);
+}
+
+.movie-card img {
+	transition: transform 0.25s ease;
+}
+
+.movie-card:hover img {
+	transform: scale(1.02);
+}
